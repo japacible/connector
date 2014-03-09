@@ -8,20 +8,20 @@ body {
   border: 0;
 }
 .site-navbar a {
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .site-navbar .current {
-  background: #3498db;
+  background: #CA4E45; /*#3498db*/
 }
 .site-navbar li a.current:hover {
-  background: #3498db;
+  background: #CA4E45;
 }
 .site-navbar li a:hover {
   background: #222222;
 }
 .site-navbar li a:focus {
-  background: #3498db;
+  background: #CA4E45;
 }
 .navbar-brand {
   padding-top: 0;
@@ -44,6 +44,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+#home h3,
 #about h3,
 #video h3,
 #prototype h3,
