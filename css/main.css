@@ -1,0 +1,111 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.site-navbar {
+  background: #222222;
+  min-height: 50px;
+  padding: 20px 0;
+  border: 0;
+}
+.site-navbar a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.site-navbar .current {
+  background: #3498db;
+}
+.site-navbar li a.current:hover {
+  background: #3498db;
+}
+.site-navbar li a:hover {
+  background: #222222;
+}
+.site-navbar li a:focus {
+  background: #3498db;
+}
+.navbar-brand {
+  padding-top: 0;
+}
+.navbar-toggle .icon-bar {
+  background: #ffffff;
+}
+.navbar-toggle {
+  border: 1px solid #ffffff;
+  border-radius: 0;
+}
+.site-main {
+  margin-top: 90px
+}
+#about,
+#video,
+#prototype,
+#documentation,
+#team {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#about h3,
+#video h3,
+#prototype h3,
+#documentation h3,
+#team h3 {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+#about p {
+  font-size: 1.3em;
+  font-weight: 300;
+  color: #444444;
+}
+#video {
+  background: #1b2124;
+  color: #ffffff;
+}
+#prototype {
+  background: #CA4E45;
+  color: #ffffff;
+}
+#prototype img {
+  width: 100%;
+  margin-bottom: 20px;
+  height: auto;
+}
+#prototype span {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#team h4 {
+  /*text-transform: uppercase;*/
+  text-align: center;
+}
+#team p {
+  text-align: center
+}
+#team img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#documentation {
+  background: #1b2124;
+  color: #ffffff;
+}
+#documentation a {
+  color: #ffffff;
+}
+#documentation p {
+}
+footer {
+  background: #222222;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 80px;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+  text-shadow: 0;
+}
