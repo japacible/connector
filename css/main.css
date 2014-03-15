@@ -70,6 +70,8 @@ body {
 #video {
   background: #222222;
   color: #ffffff;
+}
+#concept-video {
   text-align: center;
 }
 #prototype {
