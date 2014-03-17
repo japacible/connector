@@ -153,3 +153,28 @@ footer a:hover {
 #prototype span a:hover {
   text-decoration: none;
 }
+.nav-tabs {
+  color: #ffffff;
+  font-weight: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+.nav-tabs li a {
+  color: #ffffff;
+}
+.nav-tabs li a:hover {
+  color: #CA4E45;
+}
+.nav-tabs li.active a {
+  color: #CA4E45;
+}
+.tab-pane {
+  color: #ffffff;
+  font-size: 20px;
+}
+.tab-pane span {
+  font-weight: bold;
+}
+.tab-pane {
+  text-align: left;
+}
