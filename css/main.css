@@ -158,15 +158,21 @@ footer a:hover {
   font-weight: none;
   text-decoration: none;
   font-size: 25px;
+  padding-top: 30px;
 }
 .nav-tabs li a {
   color: #ffffff;
 }
 .nav-tabs li a:hover {
-  color: #CA4E45;
+  color: #222222;
+  background: #CA4E45;
+  border-style: none;
 }
 .nav-tabs li.active a {
   color: #CA4E45;
+}
+.nav-tabs li.active a:hover {
+  color: #222222;
 }
 .tab-pane {
   color: #ffffff;
